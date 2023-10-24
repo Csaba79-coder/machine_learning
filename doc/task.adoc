@@ -1,0 +1,40 @@
+= Dependencies for Machine Learning:
+
+== Apache Spark MLlib
+
+Dealing with large-scale data is a challenge for machine learning. Apache Spark MLlib is a scalable machine learning
+library that delivers both high-quality algorithms and blazing speed. MLlib includes distributed implementations of
+algorithms for classification, regression, collaborative filtering and clustering.
+
+== Weka
+
+User-friendly and great choice for small and medium-sized data sets. It contains a collection of visualization tools
+and algorithms for data analysis and predictive modeling, together with graphical user interfaces for easy access to
+these functions.
+
+== Deeplearning4j
+
+Deeplearning4j is a deep learning library written for Java and the Java virtual machine (JVM). It is a commercial-grade,
+open-source, distributed deep-learning library written for Java and Scala. Integrated with Hadoop and Spark, DL4J is
+designed to be used in business environments on distributed GPUs and CPUs.
+
+
+```
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-core_2.12</artifactId>
+    <version>3.0.1</version>
+</dependency>
+```
+
+```
+<dependency>
+    <groupId>org.deeplearning4j</groupId>
+    <artifactId>deeplearning4j-core</artifactId>
+    <version>1.0.0-beta4</version>
+</dependency>
+```
+
+
+
+
